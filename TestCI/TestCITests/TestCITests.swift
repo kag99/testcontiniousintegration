@@ -21,6 +21,8 @@ class TestCITests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let x = 1
+        XCTAssertTrue(x != 1)
     }
 
     func testPerformanceExample() throws {
